@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadraJava</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+
+<header id="header">
+    <h1 class="titulo">
+        CALCULADOR DE VOLUMES
+    </h1>
+</header>
+
+
+<main id="main">
+        <section class="formas">
+            <div class="caixas">
+                <div class="caixa" onclick="retangulo()">
+                    <img src="img/retangulo.svg" alt="" class="">
+                    <p class="texto">Retângulo</p>
+                    <h3 id="a_ret"></h3>
+                </div>
+
+                <div class="caixa" onclick="triangulo()">
+                    <img src="img/triangulo.svg" alt="" class="imagem">
+                    <p class="texto">Triângulo</p>
+                    <h3 id="b_ret"></h3>
+                </div>
+
+                <div class="caixa" onclick="circulo()">
+                    <img src="img/circulo.svg" alt="" class="imagem">
+                    <p class="texto">Circulo</p>
+                    <h3 id="c_ret"></h3>
+                </div>
+
+                <div class="caixa" onclick="trapezio()">
+                    <img src="img/trapezio.svg" alt="" class="imagem">
+                    <p class="texto">Trapézio</p>
+                    <h3 id="d_ret"></h3>
+                </div>
+
+                <div class="caixa" onclick="losango()">
+                    <img src="img/losango.svg" alt="" class="imagem">
+                    <p class="texto">Losango</p>
+                    <h3 id="e_ret"></h3>
+                </div>
+            </div>    
+        </section>
+</main>
+
+<script src="js.js"></script>
+
+</body>
+</html>

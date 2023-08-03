@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Alegreya+Sans+SC&family=Roboto&display=swap');/* font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');/* font-family: 'PT Sans Narrow', sans-serif; */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background: linear-gradient(198deg, rgba(233, 107, 107, 0.9) 11.03%, rgba(215, 110, 110, 0.77) 82.21%);
+}
+
+.titulo{
+    background-color: #ff0000;
+    padding: 40px;
+    text-align: center;
+    font: 400 40px 'Roboto';
+    color: white;
+    border-bottom: 2px dashed rgb(255, 255, 255);
+}
+
+.caixas {
+    margin-top: 1.5625rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.caixa{
+    padding: 1.5625rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    justify-content: start;
+    align-items: center ;
+    width: 300px;
+    height: 300px;
+    margin: 70px;
+    border-radius: 10px;
+    border: #ffffff 3px solid;
+}
+
+.caixa .texto{
+    font: 400 1.75rem 'Righteous', cursive;
+    color: #ffffff;
+}
+
+/* IMAGEM */
+
+img {
+    width: 9.375rem;
+    height: 9.375rem;
+}
+
+.caixa:hover{
+    box-shadow: #ff0000;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.304);
+    transition: 0.5s  ease-out;
+    transform: scale(1.1);
+}
+
+#a_ret{
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Roboto';
+}
+#b_ret{
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Roboto';
+}
+#c_ret{
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Roboto';
+}
+#d_ret{
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Roboto';
+}
+#e_ret{
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Roboto';
+}

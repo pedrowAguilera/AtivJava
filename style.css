@@ -26,7 +26,7 @@ body{
     padding: 40px;
     text-align: center;
     font: 400 40px 'Roboto';
-    color: white;
+    color: rgb(255, 255, 255);
     border-bottom: 2px dashed rgb(255, 255, 255);
 }
 
@@ -55,7 +55,7 @@ body{
 
 .caixa .texto{
     font: 400 1.75rem 'Righteous', cursive;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* IMAGEM */

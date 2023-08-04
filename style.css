@@ -56,6 +56,7 @@ body{
 .caixa .texto{
     font: 400 1.75rem 'Righteous', cursive;
     color: #000000;
+    margin-top: -10px;
 }
 
 /* IMAGEM */
@@ -74,26 +75,26 @@ img {
 
 #a_ret{
     text-align: center;
-    margin-top: 7px;
+    margin-top: 9px;
     font-family: 'Roboto';
 }
 #b_ret{
     text-align: center;
-    margin-top: 7px;
+    margin-top: 9px;
     font-family: 'Roboto';
 }
 #c_ret{
     text-align: center;
-    margin-top: 7px;
+    margin-top: 9px;
     font-family: 'Roboto';
 }
 #d_ret{
     text-align: center;
-    margin-top: 7px;
+    margin-top: 9px;
     font-family: 'Roboto';
 }
 #e_ret{
     text-align: center;
-    margin-top: 7px;
+    margin-top: 9px;
     font-family: 'Roboto';
 }
